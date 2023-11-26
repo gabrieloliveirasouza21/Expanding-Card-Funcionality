@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vh;
+    height: 90vh;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.painel{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.ativo {
+    width: 250em;
+    transition: width 1s ease;
+}
